@@ -16,7 +16,6 @@ class GetDataAire(Resource):
             print(e)
             return(
                 {
-                "Descripcion": "Ha ocurrido un error al solicitar los datos"
-                },
-                500
+                    "Descripcion": "Ha ocurrido un error al solicitar los datos"
+                }, 500
             )
